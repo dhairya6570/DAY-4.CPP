@@ -16,7 +16,7 @@ class Customers {
 	
 	public :
 		
-		void setter (int cust_id , char cust_name[] , int cust_age , char cust_telecom_brand_name[] , char cust_mobile_number[] , char cust_city[] , int cust_simcard_validity){
+		void setter (int cust_id , char cust_name[] , int cust_age , char cust_telecome_brand_name[] , char cust_mobile_number[] , char cust_city[] , int cust_simcard_validity){
 			
 			this->cust_id  = cust_id ;
 			strcpy( this->cust_name,cust_name ) ;
